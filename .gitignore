@@ -1,3 +1,5 @@
 node_modules
-common
+build
+commons
 .DS_Store
+.next
