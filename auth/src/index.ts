@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import { app } from './app';
+import { app } from "./app";
 
 const start = async () => {
 	try {
@@ -18,7 +18,7 @@ const start = async () => {
 	}
 
 	app.listen(3000, () => {
-		console.log("listening on port 3000...");
+		console.log("listening on auth service at port 3000...");
 	});
 };
 
